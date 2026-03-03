@@ -1,0 +1,33 @@
+# 📝 Note App Website
+
+A responsive and interactive Note Application built using HTML, CSS, Bootstrap, and Vanilla JavaScript.
+
+## 🚀 Features
+- Loading ....
+- Add new notes with title and content
+- Save notes permanently using localStorage
+- Track editing state using sessionStorage
+- Delete individual notes
+- Clear all notes
+- Search and filter notes dynamically
+- Sort notes (Newest to Oldest / Oldest to Newest)
+- Confirmation modal for unsaved changes
+- Smooth UI animations and overlay effects
+- Responsive design
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript (ES6)
+- LocalStorage
+- SessionStorage
+
+## 💡 Project Purpose
+
+This project was built to practice DOM manipulation, storage handling, form validation, and UI/UX improvements using JavaScript.
+
+## 📌 Author
+
+Reem Haitham

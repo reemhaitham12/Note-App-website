@@ -1,0 +1,160 @@
+/* color: #F29AAE
+          #C47BE4
+          #7132CA
+          #301CA0 */
+
+
+.bg-purple {
+    background-color: #7132CA;
+}
+
+.search:hover {
+
+    color: white;
+}
+
+.addNote {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+}
+
+.addNote button {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.hidden {
+    display: none;
+}
+
+/* overlay */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+/* card */
+.note-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+    z-index: 999;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* header */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card-header i {
+    cursor: pointer;
+}
+
+/* inputs */
+.note-card input,
+.note-card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.note-card textarea {
+    resize: none;
+    height: 100px;
+}
+
+#noteForm button {
+    font-size: 20px;
+}
+
+#noteForm button:hover,
+#emptyCard button:hover {
+    background-color: #7132CA !important;
+}
+
+#confirmSave:hover,
+.confirm-actions .confirmSave:hover {
+    background-color: #7132CA !important;
+}
+
+.confirm-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    z-index: 1001;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.confirm-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.empty-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    z-index: 1002;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* noteFound image */
+.notFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    pointer-events: none;
+    
+}
+.notFound img {
+    width: 500px;   
+    max-width: 100%;
+}
+.notFound p {
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #555;
+}
